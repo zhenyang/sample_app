@@ -2,6 +2,8 @@ source 'http://rubygems.org'
 
 gem 'rails', '3.0.9'
 
+gem 'gravatar_image_tag'
+
 group :development do
  gem 'rspec-rails'
  gem 'annotate' 
@@ -11,6 +13,7 @@ group :test do
  gem 'rspec'
  gem 'webrat'
  gem 'spork'
+ gem 'factory_girl_rails'
 end
 
 # Bundle edge Rails instead:
